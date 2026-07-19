@@ -1,6 +1,6 @@
 # 🖼️ AI342 Professional Digital Image Processing System
 
-A complete Digital Image Processing application developed for the **AI342** course. The project demonstrates the full image processing pipeline, including image restoration, segmentation, feature extraction, and object classification using **PCA (Principal Component Analysis)**.
+> An interactive image processing application that restores images, extracts shape features, and classifies objects into different categories using Principal Component Analysis (PCA).
 
 ---
 
@@ -13,8 +13,8 @@ A complete Digital Image Processing application developed for the **AI342** cour
   - Periodic
   - Uniform
 - 🧹 Image Restoration
-  - Spatial Domain Filters
-  - Frequency Domain Filters
+  - Spatial Domain Filtering
+  - Frequency Domain Filtering
 - 📊 Image Quality Evaluation
   - MSE
   - PSNR
@@ -32,7 +32,7 @@ A complete Digital Image Processing application developed for the **AI342** cour
 # 🖥️ Application Interface
 
 <p align="center">
-<img src="Screenshot 2026-07-19 024141.png" width="900">
+  <img src="images/interface.png" width="900" alt="Application Interface">
 </p>
 
 > Replace **interface.png** with a screenshot of your application.
@@ -41,18 +41,15 @@ A complete Digital Image Processing application developed for the **AI342** cour
 
 # 🎥 Demo Video
 
-Watch the project demonstration here:
+Or click here:
 
-🔗 **Video Link**
-
-```
-**[Project Demo Video](https://youtu.be/Gy7mM6QsP14)**
+▶️ **[Project Demo Video](https://youtu.be/Gy7mM6QsP14)**
 
 ---
 
 # 📂 Dataset
 
-The project classifies five different object categories:
+The project classifies five different object categories.
 
 | Object | Category |
 |---------|----------|
@@ -66,15 +63,15 @@ The project classifies five different object categories:
 
 # ⚙️ Processing Pipeline
 
-### 📌 Phase 1 – Image Restoration
+## 📌 Phase 1 – Image Restoration
 
-- Add different noise models.
-- Restore images using spatial and frequency domain filtering.
-- Evaluate restoration performance using MSE and PSNR.
+- Add different types of image noise.
+- Restore images using spatial and frequency domain filters.
+- Evaluate restoration performance using **MSE** and **PSNR**.
 
 ---
 
-### 📌 Phase 2 – Segmentation
+## 📌 Phase 2 – Segmentation
 
 - Thresholding
 - Morphological Operations
@@ -84,21 +81,23 @@ The project classifies five different object categories:
   - Dilation
   - Boundary Extraction
 
+This stage generates a clean binary mask for the target object.
+
 ---
 
-### 📌 Phase 3 – Feature Extraction & Classification ⭐
+## ⭐ Phase 3 – Feature Extraction & Shape Classification
 
-The classification stage is the main objective of the project.
+The final stage focuses on recognizing object shapes.
 
-Each segmented object is analyzed by extracting geometric features:
+The system automatically extracts the following geometric features:
 
 - 📐 Area
 - 📏 Perimeter
 - ⭕ Circularity
 
-The extracted features are projected into a lower-dimensional feature space using **Principal Component Analysis (PCA)**.
+These features are projected into a lower-dimensional feature space using **Principal Component Analysis (PCA)**.
 
-Finally, the system classifies every object into one of the following categories:
+Finally, each object is classified into one of the following categories:
 
 - ⚽ Circular
 - 🪵 Elongated
@@ -130,7 +129,7 @@ The application provides:
 - ✅ Morphological Results
 - ✅ Feature Extraction
 - ✅ PCA Visualization
-- ✅ Shape Classification
+- ✅ Final Shape Classification
 - ✅ MSE & PSNR Evaluation
 
 ---
@@ -139,6 +138,9 @@ The application provides:
 
 **Abdulrahman Alhazmi**
 
+Artificial Intelligence Student
+
+Taibah University
 
 ---
 
