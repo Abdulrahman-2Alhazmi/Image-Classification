@@ -32,7 +32,7 @@ A complete Digital Image Processing application developed for the **AI342** cour
 # 🖥️ Application Interface
 
 <p align="center">
-<img src="images/interface.png" width="900">
+<img src="Screenshot 2026-07-19 024141.png" width="900">
 </p>
 
 > Replace **interface.png** with a screenshot of your application.
@@ -46,8 +46,7 @@ Watch the project demonstration here:
 🔗 **Video Link**
 
 ```
-[https://your-video-link.com](https://youtu.be/Gy7mM6QsP14)
-```
+▶️ **[Project Demo Video](https://youtu.be/Gy7mM6QsP14)**```
 
 ---
 
