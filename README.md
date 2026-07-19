@@ -46,7 +46,7 @@ Watch the project demonstration here:
 🔗 **Video Link**
 
 ```
-▶️ **[Project Demo Video](https://youtu.be/Gy7mM6QsP14)**```
+**[Project Demo Video](https://youtu.be/Gy7mM6QsP14)**
 
 ---
 
