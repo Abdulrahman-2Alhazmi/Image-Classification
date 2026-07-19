@@ -32,7 +32,7 @@
 # 🖥️ Application Interface
 
 <p align="center">
-  <img src="images/interface.png" width="900" alt="Application Interface">
+  <img src="Screenshot 2026-07-19 024141.png" width="900" alt="Application Interface">
 </p>
 
 > Replace **interface.png** with a screenshot of your application.
@@ -138,9 +138,7 @@ The application provides:
 
 **Abdulrahman Alhazmi**
 
-Artificial Intelligence Student
 
-Taibah University
 
 ---
 
